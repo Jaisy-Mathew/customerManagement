@@ -1,0 +1,8 @@
+com\customer\customerManagement\controller\CustomerController.class
+com\customer\customerManagement\repository\CustomerRepository.class
+com\customer\customerManagement\entity\CustomerAddress.class
+com\customer\customerManagement\controller\SwaggerConfig.class
+com\customer\customerManagement\Application.class
+com\customer\customerManagement\entity\Customer.class
+com\customer\customerManagement\service\CustomerService.class
+com\customer\customerManagement\service\CustomerServiceImpl.class

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.customer.customerManagement.service.CustomerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.119 s <<< FAILURE! - in com.customer.customerManagement.service.CustomerServiceTest
+testCreateCustomerDetails(com.customer.customerManagement.service.CustomerServiceTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.customer.customerManagement.service.CustomerServiceTest.testCreateCustomerDetails(CustomerServiceTest.java:48)
+
+testAllCustomerDetails(com.customer.customerManagement.service.CustomerServiceTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.customer.customerManagement.service.CustomerServiceTest.testAllCustomerDetails(CustomerServiceTest.java:92)
+
+testUpdateCustomerDetails(com.customer.customerManagement.service.CustomerServiceTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.customer.customerManagement.service.CustomerServiceTest.testUpdateCustomerDetails(CustomerServiceTest.java:74)
+
+testCustomerDetailsById(com.customer.customerManagement.service.CustomerServiceTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.customer.customerManagement.service.CustomerServiceTest.testCustomerDetailsById(CustomerServiceTest.java:82)
+
